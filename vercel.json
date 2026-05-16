@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "name": "cryptex",
+  "rewrites": [
+    { "source": "/proxy", "destination": "/api/proxy" }
+  ],
+  "routes": [
+    {
+      "src": "/proxy(.*)",
+      "dest": "/api/proxy$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-XSS-Protection", "value": "1; mode=block" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "s-maxage=60, stale-while-revalidate=300" }
+      ]
+    }
+  ]
+}
