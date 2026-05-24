@@ -1,0 +1,71 @@
+{
+  "name": "CRYPTEX — Крипто Дашборд",
+  "short_name": "CRYPTEX",
+  "description": "Актуальні ціни Bitcoin, Ethereum та 50+ криптовалют в реальному часі",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a14",
+  "theme_color": "#00ff87",
+  "orientation": "any",
+  "lang": "uk",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "CRYPTEX Dashboard Mobile"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "CRYPTEX Dashboard Desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ринки",
+      "short_name": "Ринки",
+      "url": "/",
+      "description": "Ціни криптовалют",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Портфоліо",
+      "short_name": "Портфоліо",
+      "url": "/#portfolio",
+      "description": "Мій портфель",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Конвертер",
+      "short_name": "Конвертер",
+      "url": "/#converter",
+      "description": "Конвертер криптовалют",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}
