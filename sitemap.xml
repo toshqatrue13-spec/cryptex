@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+ 
   <url>
-    <loc>https://cryptex.com.ua/</loc>
-    <lastmod>2025-05-16</lastmod>
+    <loc>https://cryptex-ua.space/</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://cryptex.com.ua/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://cryptex-ua.space/"/>
   </url>
-
+ 
   <url>
-    <loc>https://cryptex.com.ua/#markets</loc>
-    <lastmod>2025-05-16</lastmod>
+    <loc>https://cryptex-ua.space/#markets</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
-
+ 
   <url>
-    <loc>https://cryptex.com.ua/#converter</loc>
-    <lastmod>2025-05-16</lastmod>
+    <loc>https://cryptex-ua.space/#converter</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-
+ 
   <url>
-    <loc>https://cryptex.com.ua/#exchanges</loc>
-    <lastmod>2025-05-16</lastmod>
+    <loc>https://cryptex-ua.space/#exchanges</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
+ 
   <url>
-    <loc>https://cryptex.com.ua/#portfolio</loc>
-    <lastmod>2025-05-16</lastmod>
+    <loc>https://cryptex-ua.space/#portfolio</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
+ 
 </urlset>
