@@ -1,11 +1,11 @@
-# CRYPTEX — robots.txt
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://cryptex.com.ua/sitemap.xml
+Sitemap: https://cryptex-ua.space/sitemap.xml
 
 # Block unnecessary files
 Disallow: /server.js
 Disallow: /start.bat
 Disallow: /start.sh
+Disallow: /.env
