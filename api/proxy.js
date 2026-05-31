@@ -33,16 +33,16 @@ export default async function handler(req, res) {
     return res.status(403).json({ error: 'Domain not allowed' });
   }
 
-  try {
+try {
     const response = await fetch(targetUrl.toString(), {
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; CryptexBot/1.0)',
         'Accept': 'application/json',
+        ...(process.env.COINGECKO_API_KEY ? { 'x-cg-demo-api-key': process.env.COINGECKO_API_KEY } : {}),
       },
       // Timeout 15 sec
       signal: AbortSignal.timeout(15000),
     });
-
     if (!response.ok) {
       return res.status(response.status).json({ 
         error: `Upstream error: ${response.status}` 
